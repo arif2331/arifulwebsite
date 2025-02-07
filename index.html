@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banker Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Professional Website</h1>
+            <p>Experienced Banker | Financial Consultant</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a dedicated banking professional with expertise in financial planning, investment strategies, and client relations.</p>
+        </div>
+    </section>
+    
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Services</h2>
+            <ul class="service-list">
+                <li>Financial Planning</li>
+                <li>Investment Consulting</li>
+                <li>Wealth Management</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <p id="responseMessage"></p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Banker Personal Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
